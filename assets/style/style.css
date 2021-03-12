@@ -1,0 +1,23 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  color: inherit;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+.main-block {
+  flex: 1 1 auto;
+  padding-top: 150px;
+  background-color: beige;
+}
+.cont {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
