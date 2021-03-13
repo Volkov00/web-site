@@ -1,14 +1,13 @@
 .head {
   background-color: var(--color-white);
   display: flex;
-  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   position: fixed;
   left: 0;
+  z-index: 2;
   right: 0;
   padding: 10px 0px;
-
   box-shadow: 3px 3px 1px rgb(0 0 0 / 5%);
 }
 
@@ -20,7 +19,7 @@
 }
 .logo-1,
 .logo-2 {
-  color: white;
+  color: var(--color-white);
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -31,10 +30,10 @@
   text-shadow: 2px 2px 1px rgb(0 0 0 / 40%);
 }
 .logo-2 {
-  background-color: #ef5a42;
+  background-color: var(--color-orangered);
 }
 .logo-1 {
-  background: #f8b763;
+  background: var(--color-orande);
 }
 .head-list-item {
   font-weight: 600;
@@ -43,11 +42,11 @@
   letter-spacing: 1px;
   transition: color 0.5s;
 }
-.head-list-item a {
+.head-list-item .head-link {
   outline: none;
 }
 .head-list-item:hover {
-  color: #ef5a42;
+  color: var(--color-orangered);
 }
 .head-list-item:nth-child(1) {
   margin: 0;

@@ -1,10 +1,13 @@
 .foot {
-  background-color: #3c3d41;
+  background-color: var(--color-dark-blue);
   padding: 20px 75px;
   display: flex;
-  color: white;
+  color: var(--color-white);
   justify-content: space-around;
   align-items: center;
+}
+.foot a {
+  outline: none;
 }
 .foot-icon-item {
   width: 20px;
