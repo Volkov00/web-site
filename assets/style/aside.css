@@ -1,0 +1,22 @@
+aside {
+  flex: 0 1 auto;
+  margin-left: 25px;
+  text-align: center;
+}
+.do {
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+ul {
+}
+aside li {
+  padding-top: 15px;
+}
+h1 {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 15px 100px;
+  margin-bottom: 15px;
+}
