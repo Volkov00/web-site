@@ -1,3 +1,6 @@
+:root {
+  --color-white: white;
+}
 * {
   text-decoration: none;
   box-sizing: border-box;
@@ -12,7 +15,6 @@ body {
   height: 100vh;
 }
 .main-block {
-  flex: 0 1 auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +22,7 @@ body {
   margin-top: 150px;
 }
 .container {
-  flex: 0 1 40%;
+  flex: 0 1 35%;
 }
 .article-container-img img {
   width: 100%;
@@ -39,6 +41,7 @@ body {
 .article-paragraf {
   display: inline-block;
   margin-bottom: 25px;
+  line-height: 20px;
 }
 .link-img-post img {
   width: 30px;
@@ -49,6 +52,7 @@ body {
 }
 .post-link-continer {
   display: flex;
+  flex-wrap: wrap;
   border-top: 1px solid grey;
   align-items: center;
   border-bottom: 1px solid rgba(128, 128, 128, 0.5);
@@ -64,11 +68,26 @@ body {
   border: 1px solid #3c3d41;
   color: white;
   background-color: #3c3d41;
-  line-height: 44px;
-  padding: 0 22px;
+  padding: 15px 22px;
+  text-align: center;
   letter-spacing: 1px;
+
+  font-size: 12px;
   text-transform: uppercase;
 }
+
 .art-post {
   margin-bottom: 50px;
+}
+@media screen and (max-width: 930px) {
+  .post-link-continer {
+    border: none;
+  }
+  .link-img-post {
+    margin: 0;
+    margin-top: 5px;
+  }
+  .do h1 {
+    padding: 10px 80px;
+  }
 }
