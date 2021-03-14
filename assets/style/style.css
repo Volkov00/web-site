@@ -99,9 +99,10 @@ body {
   .post-link-continer {
     border: none;
   }
-  .link-img-post {
-    margin-left: auto;
+  .side{
+    margin-right: 15px;
   }
+}
   @media screen and (max-width: 336px) {
   .link-img-post {
    margin-right: 180px;
@@ -115,7 +116,6 @@ body {
 }
 @media (max-width: 1700px) {
   .main-block {
-    max-width: 1200px;
     margin: 120px auto 0;
   }
 }
@@ -125,4 +125,9 @@ body {
     flex-direction: column;
     margin-top: 120px;
   }
+}
+@media (max-width: 1600px) {
+.container {
+  flex: 0 1 47%;
+}
 }
