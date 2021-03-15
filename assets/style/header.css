@@ -1,8 +1,5 @@
 .head {
   background-color: var(--color-white);
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   position: fixed;
   left: 0;
   z-index: 2;
@@ -74,5 +71,10 @@
   }
   .head-forma {
     margin: 0;
+  }
+}
+@media screen and (max-width: 668px){
+  .head-logo{
+    margin:  auto;
   }
 }
